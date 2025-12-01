@@ -48,4 +48,4 @@ https://devanshgiri7.github.io/DEVANSH-portfolio/
 
 Devansh Giri
 B.Tech CSE (AIML), KIET Group of Institutions
-📩 Email: devanshabc@kiet.edu
+📩 Email: devansh.25004127@kiet.edu
