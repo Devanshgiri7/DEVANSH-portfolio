@@ -42,6 +42,7 @@ Email, college, UID, personal details.
 
 📸 Preview
 
+https://devanshgiri7.github.io/DEVANSH-portfolio/
 
 📧 Contact
 
