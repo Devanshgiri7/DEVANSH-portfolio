@@ -1,148 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Devansh Giri | Portfolio</title>
+
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #222;
+      margin: 0;
+      background-color: #f2f2f2;
     }
+
+    /* Header */
     header {
-      background: #0b0e29;
+      background-color: #1e2a55;
       color: white;
-      padding: 60px;
       text-align: center;
+      padding: 40px 20px;
     }
-    header h1 { margin: 0; font-size: 48px; }
-    header p { margin-top: 10px; font-size: 20px; }
 
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    /* Sections */
     section {
-      padding: 50px 10%;
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
     }
+
     h2 {
-      color: #0b0e29;
-      border-left: 6px solid #0b0e29;
+      color: #1e2a55;
+      border-left: 5px solid #1e2a55;
       padding-left: 10px;
-      font-size: 30px;
     }
 
-    .skills, .projects, .contact, .about {
+    .card {
       background: white;
-      padding: 30px;
-      border-radius: 10px;
-      margin-bottom: 40px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      border: 1px solid #ddd;
     }
 
-    .skill-list, .tool-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-top: 15px;
-    }
-
+    /* Badges */
     .badge {
-      background: #0b0e29;
-      padding: 10px 18px;
+      display: inline-block;
+      background: #1e2a55;
       color: white;
-      border-radius: 20px;
+      padding: 6px 14px;
+      border-radius: 5px;
+      margin: 5px 5px 0 0;
       font-size: 14px;
     }
 
-    .project-card {
-      border: 1px solid #ddd;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 20px;
-      background: #fafafa;
-    }
-
-    .contact p { font-size: 18px; }
-
+    /* Footer */
     footer {
-      background: #0b0e29;
-      color: white;
+      background: #111;
+      color: #ccc;
       text-align: center;
-      padding: 20px;
-      margin-top: 20px;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 14px;
     }
-    a { color: #0b0e29; }
+
+    a {
+      color: #1e2a55;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
 
 <header>
   <h1>Devansh Giri</h1>
-  <p>Tech Enthusiast | Web Developer | ML Learner</p>
+  <p>B.Tech CSE (AIML) Student | KIET, Ghaziabad</p>
 </header>
 
-<section class="about">
-  <h2>About Me</h2>
-  <p>Hi! I’m <strong>Devansh Giri</strong>, currently pursuing <strong>B.Tech 1st Year in CSE (AI & ML)</strong> at <strong>KIET Group of Institutions, Ghaziabad</strong>. I have a deep interest in <strong>Web Development</strong> and <strong>Machine Learning</strong>. I love learning new technologies and applying them to practical projects.</p>
-  <p><strong>Strengths:</strong> Leadership, Time & Work Management, Active Learning, Team Collaboration, Building Positive Connections.</p>
-  <p><strong>Short-term Goals:</strong> To gain perfection in booming technologies like AI & ML and build a strong professional network.</p>
+<section>
+  <div class="card">
+    <h2>About Me</h2>
+    <p>Hi! I'm <strong>Devansh</strong>, a first-year B.Tech student in <strong>CSE (AIML)</strong>. I enjoy learning web development and exploring machine learning basics. I love working on beginner-friendly projects and improving my skills step-by-step.</p>
+  </div>
 </section>
 
-<section class="skills">
-  <h2>Skills</h2>
+<section>
+  <div class="card">
+    <h2>Skills</h2>
 
-  <h3>Programming Languages</h3>
-  <div class="skill-list">
+    <h3>Programming Languages</h3>
     <span class="badge">Java</span>
     <span class="badge">Python</span>
     <span class="badge">C (Learning)</span>
-  </div>
 
-  <h3>Web Development</h3>
-  <div class="skill-list">
+    <h3>Web Technologies</h3>
     <span class="badge">HTML</span>
     <span class="badge">CSS</span>
     <span class="badge">JavaScript</span>
-  </div>
 
-  <h3>Tools</h3>
-  <div class="tool-list">
-    <span class="badge">GitHub</span>
+    <h3>Tools</h3>
     <span class="badge">VS Code</span>
+    <span class="badge">GitHub</span>
     <span class="badge">ChatGPT</span>
-  </div>
 
-  <h3>Soft Skills</h3>
-  <div class="skill-list">
+    <h3>Soft Skills</h3>
     <span class="badge">Communication</span>
     <span class="badge">Teamwork</span>
     <span class="badge">Leadership</span>
-    <span class="badge">Project Management</span>
   </div>
 </section>
 
-<section class="projects">
-  <h2>Projects</h2>
-
-  <div class="project-card">
-    <h3>AI Chatbot for Mental Wellness (AIRA)</h3>
-    <p>A friendly AI chatbot built with my team to support people dealing with stress and depression. It provides comforting replies and basic emotional guidance.</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/Devanshgiri7/AIRA.git" target="_blank">View Project</a></p>
+<section>
+  <div class="card">
+    <h2>Projects</h2>
+    <h3>AIRA – AI Chatbot for Mental Wellness</h3>
+    <p>A simple chatbot created as a team project to help people with stress or basic emotional support.</p>
+    <p><a href="https://github.com/Devanshgiri7/AIRA.git" target="_blank">GitHub Link</a></p>
   </div>
-
 </section>
 
-<section class="about">
-  <h2>Achievements</h2>
-  <p>✔ Participated in the tech competition <strong>“Innotech”</strong>.</p>
-  <p>✔ Completed several online courses related to programming and technology.</p>
+<section>
+  <div class="card">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Participated in Innotech Technical Event</li>
+      <li>Completed beginner-level online tech courses</li>
+    </ul>
+  </div>
 </section>
 
-<section class="contact">
-  <h2>Contact</h2>
-  <p><strong>Name:</strong> DEVANSH GIRI</p>
-  <p><strong>College:</strong> KIET Group of Institutions, Ghaziabad</p>
-  <p><strong>UID:</strong> 202501100400127</p>
-  <p><strong>Email:</strong> devansh.25004127@kiet.edu</p>
+<section>
+  <div class="card">
+    <h2>Contact</h2>
+    <p><strong>Name:</strong> Devansh Giri</p>
+    <p><strong>College:</strong> KIET Group of Institutions</p>
+    <p><strong>Email:</strong> devanshabc@kiet.edu</p>
+  </div>
 </section>
 
 <footer>
